@@ -36,7 +36,7 @@
       class="container m-auto flex h-full min-h-17 w-screen max-w-[100%] items-center bg-black p-2.5 text-white xl:justify-center justify-between"
     >
       <img src="/public/img/logo.png" alt="" class="" />
-      <ul class=" items-center gap-15 font-bold ml-[5%] hidden xl:flex">
+      <ul class="items-center gap-15 font-bold ml-[5%] hidden xl:flex">
         <li>Home</li>
         <li>Explore</li>
         <li>Activity</li>
@@ -45,23 +45,25 @@
         <li>Contact</li>
       </ul>
       <div class="xl:ml-[5%] flex items-center gap-5">
-        <p class=" xl:hidden"><i class="fas fa-search"></i></p>
-        <p class=" xl:hidden"><i class="fa-solid fa-bars"></i></p>
+        <p class="xl:hidden"><i class="fas fa-search"></i></p>
+        <p class="xl:hidden"><i class="fa-solid fa-bars"></i></p>
         <button
-          class="w-fit items-center rounded-3xl border-2 border-[rgb(255,255,255)] p-2.5 text-center font-bold transition duration-450 ease-in-out hover:border-none hover:bg-gradient-to-r hover:from-[rgb(70,38,215)] hover:to-[rgb(84,11,153)] flex gap-3 items-center"
+          class="w-fit items-center rounded-3xl border-2 border-[rgb(255,255,255)] p-2.5 text-center font-bold transition duration-450 ease-in-out hover:border-none hover:bg-gradient-to-r hover:from-[rgb(70,38,215)] hover:to-[rgb(84,11,153)] flex gap-3"
         >
-          <i class="fa-light fa-wallet fa-flip-horizontal"></i> <span class="hidden md:block">Wallet Connect</span>
+          <i class="fa-light fa-wallet fa-flip-horizontal"></i>
+          <span class="hidden md:block">Wallet Connect</span>
         </button>
       </div>
     </div>
-    <div class="hero-section min-h-[600px] min-w-[100%] bg-[rgb(8,5,90)]">
-      <div class="relative top-14 left-20 w-fit">
+    <div class="hero-section min-h-[700px] w-[100%] m-auto bg-[rgb(8,5,90)]">
+      <div class="relative top-30 left-5">
         <p
           class="text-1xl relative w-fit bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold text-transparent after:absolute after:top-1/2 after:left-[calc(100%+8px)] after:h-[3px] after:w-[45px] after:rounded-3xl after:bg-gradient-to-r after:from-[rgb(70,38,215)] after:to-[rgb(84,11,153)] after:content-[''] hover:from-[rgb(84,11,153)] hover:to-[rgb(70,38,215)]"
         >
           NETSTORM
         </p>
-        <p class="xl:max-w-2xl text-7xl text-wrap font-extrabold text-white">
+        <p class="xl:max-w-2xl xl:text-7xl lg:text-6xl md:text-5xl
+        text-5xl text-wrap font-extrabold text-white">
           Discover, collect, and sell extraordinary NFTs
         </p>
         <p class="mt-5 text-gray-600">
@@ -82,7 +84,10 @@
       </div>
     </div>
 
-    <div class="live-Auction bg-black min-h-fit flex w-fit ml-50">
+    <div
+    class="main-Auctions-div m-auto mt-10 flex flex-col bg-black w-[80%] justify-center gap-10"
+    >
+    <div class="live-Auction bg-black min-h-fit flex w-fit">
       <div class="w-fit">
         <p
           class="text-1xl relative w-fit bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold text-transparent after:absolute after:top-1/2 after:left-[calc(100%+8px)] after:h-[3px] after:w-[45px] after:rounded-3xl after:bg-gradient-to-r after:from-[rgb(70,38,215)] after:to-[rgb(84,11,153)] after:content-[''] hover:from-[rgb(84,11,153)] hover:to-[rgb(70,38,215)] mt-5"
@@ -92,145 +97,144 @@
         <h3 class="text-3xl font-bold text-white mt-2.5">Live Auctions</h3>
       </div>
     </div>
-    <div
-      class="main-Auctions-div m-auto mt-10 flex bg-black w-[100%] justify-center gap-10"
-    >
-      <div
-        class="text-white p-4 shadow-[0_-20px_30px_rgba(0,0,0,0.5)] rounded-xl xl:w-auto xl:h-auto h-fit w-fit bg-[rgb(22,21,26)] transition-transform duration-500 hover:-translate-y-2"
-      >
-        <img
-          src="/public/img/auction_2.jpg"
-          alt=""
-          class="xl:h-[225px] h-[100%] md:h-[400px] w-[100%] rounded-2xl"
-        />
-        <p
-          class="mt-8 text-white text-xl relative w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500"
+      <div class="flex gap-10">
+        <div
+          class="text-white p-4 shadow-[0_-20px_30px_rgba(0,0,0,0.5)] rounded-xl xl:w-auto xl:h-auto h-fit w-fit bg-[rgb(22,21,26)] transition-transform duration-500 hover:-translate-y-2"
         >
-          Design illusions
-        </p>
-        <div class="flex items-center gap-2.5 mt-6">
           <img
-            src="/public/img/avatar_5.jpg"
+            src="/public/img/auction_2.jpg"
             alt=""
-            class="cursor-pointer rounded-4xl h-[40px] w-[40px]"
+            class="xl:h-[225px] h-[100%] md:h-[400px] w-[100%] rounded-2xl"
           />
           <p
-            class="text-white text-l relative w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500 cursor-pointer"
+            class="mt-8 text-white text-xl relative w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500"
           >
-            @ArtNox
+            Design illusions
           </p>
+          <div class="flex items-center gap-2.5 mt-6">
+            <img
+              src="/public/img/avatar_5.jpg"
+              alt=""
+              class="cursor-pointer rounded-4xl h-[40px] w-[40px]"
+            />
+            <p
+              class="text-white text-l relative w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500 cursor-pointer"
+            >
+              @ArtNox
+            </p>
+          </div>
+          <div class="flex justify-between mt-7">
+            <p class="text-l font-bold text-white">2.7 BNB</p>
+            <p class="text-l font-bold text-white">1 of 1</p>
+          </div>
         </div>
-        <div class="flex justify-between mt-7">
-          <p class="text-l font-bold text-white">2.7 BNB</p>
-          <p class="text-l font-bold text-white">1 of 1</p>
-        </div>
-      </div>
-      <div
-        class=" xl:block hidden transition-transform duration-500 hover:-translate-y-2 text-white p-4 shadow-[0_-20px_30px_rgba(0,0,0,0.5)] rounded-xl w-auto h-auto bg-[rgb(22,21,26)]"
-      >
-        <img
-          src="/public/img/auction_3.jpg"
-          alt=""
-          class="h-[225px] rounded-2xl"
-        />
-        <p
-          class="mt-8 text-white text-xl relative w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500"
+        <div
+          class="xl:block hidden transition-transform duration-500 hover:-translate-y-2 text-white p-4 shadow-[0_-20px_30px_rgba(0,0,0,0.5)] rounded-xl w-auto h-auto bg-[rgb(22,21,26)]"
         >
-          Design illusions
-        </p>
-        <div class="flex items-center gap-2.5 mt-6">
           <img
-            src="/public/img/avatar_5.jpg"
+            src="/public/img/auction_3.jpg"
             alt=""
-            class="cursor-pointer rounded-4xl h-[40px] w-[40px]"
+            class="h-[225px] rounded-2xl"
           />
           <p
-            class="text-white text-l relative w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500 cursor-pointer"
+            class="mt-8 text-white text-xl relative w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500"
           >
-            @ArtNox
+            Design illusions
           </p>
+          <div class="flex items-center gap-2.5 mt-6">
+            <img
+              src="/public/img/avatar_5.jpg"
+              alt=""
+              class="cursor-pointer rounded-4xl h-[40px] w-[40px]"
+            />
+            <p
+              class="text-white text-l relative w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500 cursor-pointer"
+            >
+              @ArtNox
+            </p>
+          </div>
+          <div class="flex justify-between mt-7">
+            <p class="text-l font-bold text-white">2.7 BNB</p>
+            <p class="text-l font-bold text-white">1 of 1</p>
+          </div>
         </div>
-        <div class="flex justify-between mt-7">
-          <p class="text-l font-bold text-white">2.7 BNB</p>
-          <p class="text-l font-bold text-white">1 of 1</p>
-        </div>
-      </div>
-      <div
-        class=" xl:block hidden transition-transform duration-500 hover:-translate-y-2 text-white p-4 shadow-[0_-20px_30px_rgba(0,0,0,0.5)] rounded-xl w-auto h-auto bg-[rgb(22,21,26)]"
-      >
-        <img
-          src="/public/img/auction_4.jpg"
-          alt=""
-          class="h-[225px] rounded-2xl"
-        />
-        <p
-          class="mt-8 text-white text-xl relative w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500"
+        <div
+          class="xl:block hidden transition-transform duration-500 hover:-translate-y-2 text-white p-4 shadow-[0_-20px_30px_rgba(0,0,0,0.5)] rounded-xl w-auto h-auto bg-[rgb(22,21,26)]"
         >
-          Design illusions
-        </p>
-        <div class="flex items-center gap-2.5 mt-6">
           <img
-            src="/public/img/avatar_5.jpg"
+            src="/public/img/auction_4.jpg"
             alt=""
-            class="cursor-pointer rounded-4xl h-[40px] w-[40px]"
+            class="h-[225px] rounded-2xl"
           />
           <p
-            class="text-white text-l relative w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500 cursor-pointer"
+            class="mt-8 text-white text-xl relative w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500"
           >
-            @ArtNox
+            Design illusions
           </p>
+          <div class="flex items-center gap-2.5 mt-6">
+            <img
+              src="/public/img/avatar_5.jpg"
+              alt=""
+              class="cursor-pointer rounded-4xl h-[40px] w-[40px]"
+            />
+            <p
+              class="text-white text-l relative w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500 cursor-pointer"
+            >
+              @ArtNox
+            </p>
+          </div>
+          <div class="flex justify-between mt-7">
+            <p class="text-l font-bold text-white">2.7 BNB</p>
+            <p class="text-l font-bold text-white">1 of 1</p>
+          </div>
         </div>
-        <div class="flex justify-between mt-7">
-          <p class="text-l font-bold text-white">2.7 BNB</p>
-          <p class="text-l font-bold text-white">1 of 1</p>
-        </div>
-      </div>
-      <div
-        class=" hidden md:block transition-transform duration-500 hover:-translate-y-2 text-white p-4 shadow-[0_-20px_30px_rgba(0,0,0,0.5)] rounded-xl xl:w-auto xl:h-auto w-fit h-fit bg-[rgb(22,21,26)]"
-      >
-        <img
-          src="/public/img/auction_5.jpg"
-          alt=""
-          class="xl:h-[225px] h-[400px] w-[100%] rounded-2xl"
-        />
-        <p
-          class="mt-8 text-white text-xl relative w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500"
+        <div
+          class="hidden md:block transition-transform duration-500 hover:-translate-y-2 text-white p-4 shadow-[0_-20px_30px_rgba(0,0,0,0.5)] rounded-xl xl:w-auto xl:h-auto w-fit h-fit bg-[rgb(22,21,26)]"
         >
-          Design illusions
-        </p>
-        <div class="flex items-center gap-2.5 mt-6">
           <img
-            src="/public/img/avatar_5.jpg"
+            src="/public/img/auction_5.jpg"
             alt=""
-            class="cursor-pointer rounded-4xl h-[40px] w-[40px]"
+            class="xl:h-[225px] h-[400px] w-[100%] rounded-2xl"
           />
           <p
-            class="text-white text-l relative w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500 cursor-pointer"
+            class="mt-8 text-white text-xl relative w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500"
           >
-            @ArtNox
+            Design illusions
           </p>
-        </div>
-        <div class="flex justify-between mt-7">
-          <p class="text-l font-bold text-white">2.7 BNB</p>
-          <p class="text-l font-bold text-white">1 of 1</p>
+          <div class="flex items-center gap-2.5 mt-6">
+            <img
+              src="/public/img/avatar_5.jpg"
+              alt=""
+              class="cursor-pointer rounded-4xl h-[40px] w-[40px]"
+            />
+            <p
+              class="text-white text-l relative w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500 cursor-pointer"
+            >
+              @ArtNox
+            </p>
+          </div>
+          <div class="flex justify-between mt-7">
+            <p class="text-l font-bold text-white">2.7 BNB</p>
+            <p class="text-l font-bold text-white">1 of 1</p>
+          </div>
         </div>
       </div>
     </div>
-    <div class="top-Sellers bg-black ml-50 mt-30">
+    <!------------------------------->
+    <!-- <div class="top-Sellers bg-black mt-30">
       <div class="w-fit">
         <p
-          class="text-1xl relative w-fit bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold text-transparent after:absolute after:top-1/2 after:left-[calc(100%+8px)] after:h-[3px] after:w-[45px] after:rounded-3xl after:bg-gradient-to-r after:from-[rgb(70,38,215)] after:to-[rgb(84,11,153)] after:content-[''] hover:from-[rgb(84,11,153)] hover:to-[rgb(70,38,215)] mt-5"
+        class="text-1xl relative w-fit bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold text-transparent after:absolute after:top-1/2 after:left-[calc(100%+8px)] after:h-[3px] after:w-[45px] after:rounded-3xl after:bg-gradient-to-r after:from-[rgb(70,38,215)] after:to-[rgb(84,11,153)] after:content-[''] hover:from-[rgb(84,11,153)] hover:to-[rgb(70,38,215)] mt-5"
         >
           CREATIVE ARTIST
         </p>
         <h3 class="text-3xl font-bold text-white mt-2.5">Top Sellers</h3>
       </div>
     </div>
-
-    <!------------------------------->
     <div
       class="mt-10 mb-20 grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 m-auto justify-items-center gap-6 max-w-[100%] xl:max-w-[75%]"
     >
+    
       <div
         class="seller-1 flex gap-3.5 p-6 items-center bg-[rgb(22,21,26)] w-[80%] md:w-[350px] rounded-[5px]"
       >
@@ -333,11 +337,149 @@
           <p class="text-white">1.7 BNB</p>
         </div>
       </div>
+    </div> -->
+<!-- TOP SELLERS SECTION -->
+<div
+  class="main-Sellers-div m-auto mt-10 flex flex-col bg-black w-[80%] justify-center gap-10"
+>
+  <!-- Title section -->
+  <div class="top-Sellers bg-black min-h-fit flex w-fit">
+    <div class="w-fit">
+      <p
+        class="text-1xl relative w-fit bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold text-transparent after:absolute after:top-1/2 after:left-[calc(100%+8px)] after:h-[3px] after:w-[45px] after:rounded-3xl after:bg-gradient-to-r after:from-[rgb(70,38,215)] after:to-[rgb(84,11,153)] after:content-[''] hover:from-[rgb(84,11,153)] hover:to-[rgb(70,38,215)] mt-5"
+      >
+        CREATIVE ARTIST
+      </p>
+      <h3 class="text-3xl font-bold text-white mt-2.5">Top Sellers</h3>
     </div>
+  </div>
+
+  <!-- Grid section -->
+  <div
+    class="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-items-center gap-6 max-w-[100%] xl:max-w-[100%]"
+  >
+    <!-- Seller Card 1 -->
+    <div
+      class="seller-1 flex gap-3.5 p-6 items-center bg-[rgb(22,21,26)] w-[100%] md:w-[350px] lg:w-[325px] rounded-[5px] shadow-[0_-20px_30px_rgba(0,0,0,0.5)] transition-transform duration-500 hover:-translate-y-2"
+    >
+      <img
+        src="/public/img/avatar_2.jpg"
+        alt=""
+        class="cursor-pointer rounded-4xl h-[60px] w-[60px]"
+      />
+      <div>
+        <p
+          class="text-white text-l relative w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500 cursor-pointer"
+        >
+          @ArtNox
+        </p>
+        <p class="text-white">1.7 BNB</p>
+      </div>
+    </div>
+
+    <!-- Seller Card 2 -->
+    <div
+      class="seller-1 flex gap-3.5 p-6 items-center bg-[rgb(22,21,26)] w-[100%] md:w-[350px] lg:w-[325px] rounded-[5px] shadow-[0_-20px_30px_rgba(0,0,0,0.5)] transition-transform duration-500 hover:-translate-y-2"
+    >
+      <img
+        src="/public/img/avatar_4.jpg"
+        alt=""
+        class="cursor-pointer rounded-4xl h-[60px] w-[60px]"
+      />
+      <div>
+        <p
+          class="text-white text-l relative w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500 cursor-pointer"
+        >
+          @ArtNox
+        </p>
+        <p class="text-white">1.7 BNB</p>
+      </div>
+    </div>
+
+    <!-- Seller Card 3 -->
+    <div
+      class="seller-1 flex gap-3.5 p-6 items-center bg-[rgb(22,21,26)] w-[100%] md:w-[350px] lg:w-[325px] rounded-[5px] shadow-[0_-20px_30px_rgba(0,0,0,0.5)] transition-transform duration-500 hover:-translate-y-2"
+    >
+      <img
+        src="/public/img/avatar_5.jpg"
+        alt=""
+        class="cursor-pointer rounded-4xl h-[60px] w-[60px]"
+      />
+      <div>
+        <p
+          class="text-white text-l relative w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500 cursor-pointer"
+        >
+          @ArtNox
+        </p>
+        <p class="text-white">1.7 BNB</p>
+      </div>
+    </div>
+
+    <!-- Seller Card 4 -->
+    <div
+      class="seller-1 flex gap-3.5 p-6 items-center bg-[rgb(22,21,26)] w-[100%] md:w-[350px] lg:w-[325px] rounded-[5px] shadow-[0_-20px_30px_rgba(0,0,0,0.5)] transition-transform duration-500 hover:-translate-y-2"
+    >
+      <img
+        src="/public/img/avatar_2.jpg"
+        alt=""
+        class="cursor-pointer rounded-4xl h-[60px] w-[60px]"
+      />
+      <div>
+        <p
+          class="text-white text-l relative w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500 cursor-pointer"
+        >
+          @ArtNox
+        </p>
+        <p class="text-white">1.7 BNB</p>
+      </div>
+    </div>
+
+    <!-- Seller Card 5 -->
+    <div
+      class="seller-1 flex gap-3.5 p-6 items-center bg-[rgb(22,21,26)] w-[100%] md:w-[350px] lg:w-[325px] rounded-[5px] shadow-[0_-20px_30px_rgba(0,0,0,0.5)] transition-transform duration-500 hover:-translate-y-2"
+    >
+      <img
+        src="/public/img/avatar_3.jpg"
+        alt=""
+        class="cursor-pointer rounded-4xl h-[60px] w-[60px]"
+      />
+      <div>
+        <p
+          class="text-white text-l relative w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500 cursor-pointer"
+        >
+          @ArtNox
+        </p>
+        <p class="text-white">1.7 BNB</p>
+      </div>
+    </div>
+
+    <!-- Seller Card 6 -->
+    <div
+      class="seller-1 flex gap-3.5 p-6 items-center bg-[rgb(22,21,26)] w-[100%] md:w-[350px] lg:w-[325px] rounded-[5px] shadow-[0_-20px_30px_rgba(0,0,0,0.5)] transition-transform duration-500 hover:-translate-y-2"
+    >
+      <img
+        src="/public/img/avatar_5.jpg"
+        alt=""
+        class="cursor-pointer rounded-4xl h-[60px] w-[60px]"
+      />
+      <div>
+        <p
+          class="text-white text-l relative w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500 cursor-pointer"
+        >
+          @ArtNox
+        </p>
+        <p class="text-white">1.7 BNB</p>
+      </div>
+    </div>
+  </div>
+</div>
 
     <!------------------------------->
 
-    <div class="top-Sellers bg-black ml-50 mt-30 mb-30">
+    
+    <!------------------------------->
+    
+    <!-- <div class="top-Sellers bg-black ml-50 mt-30 mb-30">
       <div class="w-fit">
         <p
           class="text-1xl relative w-fit bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold text-transparent after:absolute after:top-1/2 after:left-[calc(100%+8px)] after:h-[3px] after:w-[45px] after:rounded-3xl after:bg-gradient-to-r after:from-[rgb(70,38,215)] after:to-[rgb(84,11,153)] after:content-[''] hover:from-[rgb(84,11,153)] hover:to-[rgb(70,38,215)] mt-5"
@@ -349,12 +491,8 @@
         </h3>
       </div>
     </div>
-
-    <!------------------------------->
-
     <div
-      class="main-Auctions-div m-auto mt-10 grid  xl:grid-cols-4
-      lg:grid-cols-3 md:grid-cols-2 max-w-[70%] bg-black w-[100%] justify-center gap-10"
+      class="main-Auctions-div m-auto mt-10 grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 max-w-[70%] bg-black w-[100%] justify-center gap-10"
     >
       <div
         class="relative text-white p-3 shadow-[0_-20px_30px_rgba(0,0,0,0.5)] rounded-[10px] w-auto h-auto bg-[rgb(22,21,26)] transition-transform duration-500 hover:-translate-y-2"
@@ -365,17 +503,13 @@
           class="h-[62%] w-[100%] rounded-[10px]"
         />
         <img
-            src="/public/img/avatar_2.jpg"
-            alt=""
-            class="absolute top-1/2 left-1/2 -translate-x-1/2 h-[60px] w-[60px] rounded-full cursor-pointer border-2 border-gray-200 transition-all duration-500"
-          />
+          src="/public/img/avatar_2.jpg"
+          alt=""
+          class="absolute top-1/2 left-1/2 -translate-x-1/2 h-[60px] w-[60px] rounded-full cursor-pointer border-2 border-gray-200 transition-all duration-500"
+        />
 
         <div class="relative flex items-center gap-2.5 mt-6">
-          <!-- <img
-            src="/public/img/avatar_2.jpg"
-            alt=""
-            class="absolute top-0 left-1/2 -translate-x-1/2 h-[60px] w-[60px] rounded-full cursor-pointer border-2 border-gray-200 transition-all duration-500"
-          /> -->
+          
 
           <div class="flex flex-col items-center justify-center w-[100%]">
             <p
@@ -396,17 +530,13 @@
           class="h-[62%] w-[100%] rounded-[10px]"
         />
         <img
-            src="/public/img/avatar_2.jpg"
-            alt=""
-            class="absolute top-1/2 left-1/2 -translate-x-1/2 h-[60px] w-[60px] rounded-full cursor-pointer border-2 border-gray-200 transition-all duration-500"
-          />
+          src="/public/img/avatar_2.jpg"
+          alt=""
+          class="absolute top-1/2 left-1/2 -translate-x-1/2 h-[60px] w-[60px] rounded-full cursor-pointer border-2 border-gray-200 transition-all duration-500"
+        />
 
         <div class="flex items-center gap-2.5 mt-6">
-          <!-- <img
-            src="/public/img/avatar_4.jpg"
-            alt=""
-            class="absolute top-36 left-1/2 -translate-x-1/2 h-[60px] w-[60px] rounded-full cursor-pointer border-2 border-gray-200 transition-all duration-500"
-          /> -->
+         
 
           <div class="flex flex-col items-center justify-center w-[100%]">
             <p
@@ -427,17 +557,13 @@
           class="h-[62%] w-[100%] rounded-[10px]"
         />
         <img
-            src="/public/img/avatar_2.jpg"
-            alt=""
-            class="absolute top-1/2 left-1/2 -translate-x-1/2 h-[60px] w-[60px] rounded-full cursor-pointer border-2 border-gray-200 transition-all duration-500"
-          />
+          src="/public/img/avatar_2.jpg"
+          alt=""
+          class="absolute top-1/2 left-1/2 -translate-x-1/2 h-[60px] w-[60px] rounded-full cursor-pointer border-2 border-gray-200 transition-all duration-500"
+        />
 
         <div class="flex items-center gap-2.5 mt-6">
-          <!-- <img
-            src="/public/img/avatar_4.jpg"
-            alt=""
-            class="absolute top-36 left-1/2 -translate-x-1/2 h-[60px] w-[60px] rounded-full cursor-pointer border-2 border-gray-200 transition-all duration-500"
-          /> -->
+         
 
           <div class="flex flex-col items-center justify-center w-[100%]">
             <p
@@ -458,17 +584,13 @@
           class="h-[62%] w-[100%] rounded-[10px]"
         />
         <img
-            src="/public/img/avatar_2.jpg"
-            alt=""
-            class="absolute top-1/2 left-1/2 -translate-x-1/2 h-[60px] w-[60px] rounded-full cursor-pointer border-2 border-gray-200 transition-all duration-500"
-          />
+          src="/public/img/avatar_2.jpg"
+          alt=""
+          class="absolute top-1/2 left-1/2 -translate-x-1/2 h-[60px] w-[60px] rounded-full cursor-pointer border-2 border-gray-200 transition-all duration-500"
+        />
 
         <div class="flex items-center gap-2.5 mt-6">
-          <!-- <img
-            src="/public/img/avatar_3.jpg"
-            alt=""
-            class="absolute top-36 left-1/2 -translate-x-1/2 h-[60px] w-[60px] rounded-full cursor-pointer border-2 border-gray-200 transition-all duration-500"
-          /> -->
+          
 
           <div class="flex flex-col items-center justify-center w-[100%]">
             <p
@@ -489,17 +611,13 @@
           class="h-[62%] w-[100%] rounded-[10px]"
         />
         <img
-            src="/public/img/avatar_2.jpg"
-            alt=""
-            class="absolute top-1/2 left-1/2 -translate-x-1/2 h-[60px] w-[60px] rounded-full cursor-pointer border-2 border-gray-200 transition-all duration-500"
-          />
+          src="/public/img/avatar_2.jpg"
+          alt=""
+          class="absolute top-1/2 left-1/2 -translate-x-1/2 h-[60px] w-[60px] rounded-full cursor-pointer border-2 border-gray-200 transition-all duration-500"
+        />
 
         <div class="flex items-center gap-2.5 mt-6">
-          <!-- <img
-            src="/public/img/avatar_5.jpg"
-            alt=""
-            class="absolute top-36 left-1/2 -translate-x-1/2 h-[60px] w-[60px] rounded-full cursor-pointer border-2 border-gray-200 transition-all duration-500"
-          /> -->
+          
 
           <div class="flex flex-col items-center justify-center w-[100%]">
             <p
@@ -520,17 +638,13 @@
           class="h-[62%] w-[100%] rounded-[10px]"
         />
         <img
-            src="/public/img/avatar_2.jpg"
-            alt=""
-            class="absolute top-1/2 left-1/2 -translate-x-1/2 h-[60px] w-[60px] rounded-full cursor-pointer border-2 border-gray-200 transition-all duration-500"
-          />
+          src="/public/img/avatar_2.jpg"
+          alt=""
+          class="absolute top-1/2 left-1/2 -translate-x-1/2 h-[60px] w-[60px] rounded-full cursor-pointer border-2 border-gray-200 transition-all duration-500"
+        />
 
         <div class="flex items-center gap-2.5 mt-6">
-          <!-- <img
-            src="/public/img/avatar_4.jpg"
-            alt=""
-            class="absolute top-36 left-1/2 -translate-x-1/2 h-[60px] w-[60px] rounded-full cursor-pointer border-2 border-gray-200 transition-all duration-500"
-          /> -->
+          
 
           <div class="flex flex-col items-center justify-center w-[100%]">
             <p
@@ -551,17 +665,13 @@
           class="h-[62%] w-[100%] rounded-[10px]"
         />
         <img
-            src="/public/img/avatar_2.jpg"
-            alt=""
-            class="absolute top-1/2 left-1/2 -translate-x-1/2 h-[60px] w-[60px] rounded-full cursor-pointer border-2 border-gray-200 transition-all duration-500"
-          />
+          src="/public/img/avatar_2.jpg"
+          alt=""
+          class="absolute top-1/2 left-1/2 -translate-x-1/2 h-[60px] w-[60px] rounded-full cursor-pointer border-2 border-gray-200 transition-all duration-500"
+        />
 
         <div class="flex items-center gap-2.5 mt-6">
-          <!-- <img
-            src="/public/img/avatar_3.jpg"
-            alt=""
-            class="absolute top-36 left-1/2 -translate-x-1/2 h-[60px] w-[60px] rounded-full cursor-pointer border-2 border-gray-200 transition-all duration-500"
-          /> -->
+         
 
           <div class="flex flex-col items-center justify-center w-[100%]">
             <p
@@ -582,17 +692,13 @@
           class="h-[62%] w-[100%] rounded-[10px]"
         />
         <img
-            src="/public/img/avatar_2.jpg"
-            alt=""
-            class="absolute top-1/2 left-1/2 -translate-x-1/2 h-[60px] w-[60px] rounded-full cursor-pointer border-2 border-gray-200 transition-all duration-500"
-          />
+          src="/public/img/avatar_2.jpg"
+          alt=""
+          class="absolute top-1/2 left-1/2 -translate-x-1/2 h-[60px] w-[60px] rounded-full cursor-pointer border-2 border-gray-200 transition-all duration-500"
+        />
 
         <div class="flex items-center gap-2.5 mt-6">
-          <!-- <img
-            src="/public/img/avatar_2.jpg"
-            alt=""
-            class="absolute top-36 left-1/2 -translate-x-1/2 h-[60px] w-[60px] rounded-full cursor-pointer border-2 border-gray-200 transition-all duration-500"
-          /> -->
+          
 
           <div class="flex flex-col items-center justify-center w-[100%]">
             <p
@@ -604,11 +710,243 @@
           </div>
         </div>
       </div>
+    </div> -->
+
+    <!-- Popular Collections Section -->
+<div
+  class="popular-collections-section m-auto mt-10 flex flex-col bg-black w-[80%] justify-center gap-10"
+>
+  <!-- Title -->
+  <div class="top-Sellers bg-black min-h-fit flex w-fit">
+    <div class="w-fit">
+      <p
+        class="text-1xl relative w-fit bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold text-transparent after:absolute after:top-1/2 after:left-[calc(100%+8px)] after:h-[3px] after:w-[45px] after:rounded-3xl after:bg-gradient-to-r after:from-[rgb(70,38,215)] after:to-[rgb(84,11,153)] after:content-[''] hover:from-[rgb(84,11,153)] hover:to-[rgb(70,38,215)] mt-5"
+      >
+        MOST POPULAR
+      </p>
+      <h3 class="text-3xl font-bold text-white mt-2.5">
+        Popular Collections
+      </h3>
     </div>
+  </div>
+
+  <!-- Grid -->
+  <div
+    class="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 m-auto justify-items-center gap-6 max-w-[100%] xl:max-w-[100%]"
+  >
+    <!-- Card 1 -->
+    <div
+      class="relative text-white p-3 shadow-[0_-20px_30px_rgba(0,0,0,0.5)] rounded-[10px] w-auto h-auto bg-[rgb(22,21,26)] transition-transform duration-500 hover:-translate-y-2"
+    >
+      <img
+        src="/public/img/author_1.jpg"
+        alt=""
+        class="h-[62%] w-[100%] rounded-[10px]"
+      />
+      <img
+        src="/public/img/avatar_2.jpg"
+        alt=""
+        class="absolute top-1/2 left-1/2 -translate-x-1/2 h-[60px] w-[60px] rounded-full cursor-pointer border-2 border-gray-200 transition-all duration-500"
+      />
+      <div class="relative flex items-center gap-2.5 mt-6">
+        <div class="flex flex-col items-center justify-center w-[100%]">
+          <p
+            class="text-white text-xl mt-4 w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500 cursor-pointer"
+          >
+            Virtual Worlds
+          </p>
+          <p class="text-gray-400 opacity-50 mt-2.5">ERC-729</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div
+      class="relative text-white p-3 shadow-[0_-20px_30px_rgba(0,0,0,0.5)] rounded-[10px] w-auto h-auto bg-[rgb(22,21,26)] transition-transform duration-500 hover:-translate-y-2"
+    >
+      <img
+        src="/public/img/author_2.jpg"
+        alt=""
+        class="h-[62%] w-[100%] rounded-[10px]"
+      />
+      <img
+        src="/public/img/avatar_2.jpg"
+        alt=""
+        class="absolute top-1/2 left-1/2 -translate-x-1/2 h-[60px] w-[60px] rounded-full cursor-pointer border-2 border-gray-200 transition-all duration-500"
+      />
+      <div class="flex items-center gap-2.5 mt-6">
+        <div class="flex flex-col items-center justify-center w-[100%]">
+          <p
+            class="text-white text-xl mt-4 w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500 cursor-pointer"
+          >
+            Virtual Worlds
+          </p>
+          <p class="text-gray-400 opacity-50 mt-2.5">ERC-522</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div
+      class="relative text-white p-3 shadow-[0_-20px_30px_rgba(0,0,0,0.5)] rounded-[10px] w-auto h-auto bg-[rgb(22,21,26)] transition-transform duration-500 hover:-translate-y-2"
+    >
+      <img
+        src="/public/img/author_3.jpg"
+        alt=""
+        class="h-[62%] w-[100%] rounded-[10px]"
+      />
+      <img
+        src="/public/img/avatar_2.jpg"
+        alt=""
+        class="absolute top-1/2 left-1/2 -translate-x-1/2 h-[60px] w-[60px] rounded-full cursor-pointer border-2 border-gray-200 transition-all duration-500"
+      />
+      <div class="flex items-center gap-2.5 mt-6">
+        <div class="flex flex-col items-center justify-center w-[100%]">
+          <p
+            class="text-white text-xl mt-4 w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500 cursor-pointer"
+          >
+            Virtual Worlds
+          </p>
+          <p class="text-gray-400 opacity-50 mt-2.5">ERC-495</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div
+      class="relative text-white p-3 shadow-[0_-20px_30px_rgba(0,0,0,0.5)] rounded-[10px] w-auto h-auto bg-[rgb(22,21,26)] transition-transform duration-500 hover:-translate-y-2"
+    >
+      <img
+        src="/public/img/author_4.jpg"
+        alt=""
+        class="h-[62%] w-[100%] rounded-[10px]"
+      />
+      <img
+        src="/public/img/avatar_2.jpg"
+        alt=""
+        class="absolute top-1/2 left-1/2 -translate-x-1/2 h-[60px] w-[60px] rounded-full cursor-pointer border-2 border-gray-200 transition-all duration-500"
+      />
+      <div class="flex items-center gap-2.5 mt-6">
+        <div class="flex flex-col items-center justify-center w-[100%]">
+          <p
+            class="text-white text-xl mt-4 w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500 cursor-pointer"
+          >
+            Virtual Worlds
+          </p>
+          <p class="text-gray-400 opacity-50 mt-2.5">ERC-873</p>
+        </div>
+      </div>
+    </div>
+     <!-- Card 4 -->
+    <div
+      class="relative text-white p-3 shadow-[0_-20px_30px_rgba(0,0,0,0.5)] rounded-[10px] w-auto h-auto bg-[rgb(22,21,26)] transition-transform duration-500 hover:-translate-y-2"
+    >
+      <img
+        src="/public/img/author_4.jpg"
+        alt=""
+        class="h-[62%] w-[100%] rounded-[10px]"
+      />
+      <img
+        src="/public/img/avatar_2.jpg"
+        alt=""
+        class="absolute top-1/2 left-1/2 -translate-x-1/2 h-[60px] w-[60px] rounded-full cursor-pointer border-2 border-gray-200 transition-all duration-500"
+      />
+      <div class="flex items-center gap-2.5 mt-6">
+        <div class="flex flex-col items-center justify-center w-[100%]">
+          <p
+            class="text-white text-xl mt-4 w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500 cursor-pointer"
+          >
+            Virtual Worlds
+          </p>
+          <p class="text-gray-400 opacity-50 mt-2.5">ERC-873</p>
+        </div>
+      </div>
+    </div>
+     <!-- Card 4 -->
+    <div
+      class="relative text-white p-3 shadow-[0_-20px_30px_rgba(0,0,0,0.5)] rounded-[10px] w-auto h-auto bg-[rgb(22,21,26)] transition-transform duration-500 hover:-translate-y-2"
+    >
+      <img
+        src="/public/img/author_4.jpg"
+        alt=""
+        class="h-[62%] w-[100%] rounded-[10px]"
+      />
+      <img
+        src="/public/img/avatar_2.jpg"
+        alt=""
+        class="absolute top-1/2 left-1/2 -translate-x-1/2 h-[60px] w-[60px] rounded-full cursor-pointer border-2 border-gray-200 transition-all duration-500"
+      />
+      <div class="flex items-center gap-2.5 mt-6">
+        <div class="flex flex-col items-center justify-center w-[100%]">
+          <p
+            class="text-white text-xl mt-4 w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500 cursor-pointer"
+          >
+            Virtual Worlds
+          </p>
+          <p class="text-gray-400 opacity-50 mt-2.5">ERC-873</p>
+        </div>
+      </div>
+    </div>
+     <!-- Card 4 -->
+    <div
+      class="relative text-white p-3 shadow-[0_-20px_30px_rgba(0,0,0,0.5)] rounded-[10px] w-auto h-auto bg-[rgb(22,21,26)] transition-transform duration-500 hover:-translate-y-2"
+    >
+      <img
+        src="/public/img/author_4.jpg"
+        alt=""
+        class="h-[62%] w-[100%] rounded-[10px]"
+      />
+      <img
+        src="/public/img/avatar_2.jpg"
+        alt=""
+        class="absolute top-1/2 left-1/2 -translate-x-1/2 h-[60px] w-[60px] rounded-full cursor-pointer border-2 border-gray-200 transition-all duration-500"
+      />
+      <div class="flex items-center gap-2.5 mt-6">
+        <div class="flex flex-col items-center justify-center w-[100%]">
+          <p
+            class="text-white text-xl mt-4 w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500 cursor-pointer"
+          >
+            Virtual Worlds
+          </p>
+          <p class="text-gray-400 opacity-50 mt-2.5">ERC-873</p>
+        </div>
+      </div>
+    </div>
+     <!-- Card 4 -->
+    <div
+      class="relative text-white p-3 shadow-[0_-20px_30px_rgba(0,0,0,0.5)] rounded-[10px] w-auto h-auto bg-[rgb(22,21,26)] transition-transform duration-500 hover:-translate-y-2"
+    >
+      <img
+        src="/public/img/author_4.jpg"
+        alt=""
+        class="h-[62%] w-[100%] rounded-[10px]"
+      />
+      <img
+        src="/public/img/avatar_2.jpg"
+        alt=""
+        class="absolute top-1/2 left-1/2 -translate-x-1/2 h-[60px] w-[60px] rounded-full cursor-pointer border-2 border-gray-200 transition-all duration-500"
+      />
+      <div class="flex items-center gap-2.5 mt-6">
+        <div class="flex flex-col items-center justify-center w-[100%]">
+          <p
+            class="text-white text-xl mt-4 w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500 cursor-pointer"
+          >
+            Virtual Worlds
+          </p>
+          <p class="text-gray-400 opacity-50 mt-2.5">ERC-873</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- repeat more cards with same structure … -->
+  </div>
+</div>
+
+
 
     <!-- ------------------------------- -->
 
-    <div class="live-Auction bg-black min-h-fit flex w-fit mt-10 ml-50">
+    <!-- <div class="live-Auction bg-black min-h-fit flex w-fit mt-10 ml-50">
       <div class="w-fit">
         <p
           class="text-1xl relative w-fit bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold text-transparent after:absolute after:top-1/2 after:left-[calc(100%+8px)] after:h-[3px] after:w-[45px] after:rounded-3xl after:bg-gradient-to-r after:from-[rgb(70,38,215)] after:to-[rgb(84,11,153)] after:content-[''] hover:from-[rgb(84,11,153)] hover:to-[rgb(70,38,215)] mt-5"
@@ -745,11 +1083,167 @@
           <i class="fa-light fa-bag-shopping"></i> Place a Bid
         </button>
       </div>
+    </div> -->
+
+<!-- Explore – Exclusive Assets Section -->
+
+<!-- Live Auction Section -->
+<div class="live-Auction bg-black min-h-fit flex w-fit mt-10 ml-15 md:ml-26 lg:ml-34">
+  <div class="w-fit">
+    <p
+      class="text-1xl relative w-fit bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold text-transparent after:absolute after:top-1/2 after:left-[calc(100%+8px)] after:h-[3px] after:w-[45px] after:rounded-3xl after:bg-gradient-to-r after:from-[rgb(70,38,215)] after:to-[rgb(84,11,153)] after:content-[''] hover:from-[rgb(84,11,153)] hover:to-[rgb(70,38,215)] mt-5"
+    >
+      EXCLUSIVE ASSETS
+    </p>
+    <h3 class="text-3xl font-bold text-white mt-2.5">Explore</h3>
+  </div>
+</div>
+
+<!-- Cards wrapper: grid with responsive columns -->
+<div
+  class="main-Auctions-div m-auto mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 bg-black w-[80%] justify-items-center gap-10"
+>
+  <!-- Card 1 -->
+  <div
+    class="text-white p-4 shadow-[0_-20px_30px_rgba(0,0,0,0.5)] rounded-xl w-full bg-[rgb(22,21,26)] transition-transform duration-500 hover:-translate-y-2"
+  >
+    <img
+      src="/public/img/auction_2.jpg"
+      alt=""
+      class="w-full h-auto rounded-2xl"
+    />
+    <p
+      class="mt-8 text-white text-xl relative w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500"
+    >
+      Design illusions
+    </p>
+    <div class="flex items-center gap-2.5 mt-6">
+      <p class="text-gray-500 opacity-80">Owned By</p>
+      <p
+        class="text-white text-l relative w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500 cursor-pointer"
+      >
+        Richard
+      </p>
     </div>
+    <div class="flex justify-between mt-7">
+      <p class="text-l font-bold text-white">2.7 ETH</p>
+      <p class="text-l font-bold text-white">1 of 1</p>
+    </div>
+    <button
+      class="mt-7 w-45 items-center rounded-3xl border-2 border-[rgb(255,255,255)] p-2.5 text-center font-bold transition duration-450 ease-in-out hover:border-none hover:bg-gradient-to-r hover:from-[rgb(70,38,215)] hover:to-[rgb(84,11,153)]"
+    >
+      <i class="fa-light fa-bag-shopping"></i> Place a Bid
+    </button>
+  </div>
+
+  <!-- Card 2 -->
+  <div
+    class="text-white p-4 shadow-[0_-20px_30px_rgba(0,0,0,0.5)] rounded-xl w-full bg-[rgb(22,21,26)] transition-transform duration-500 hover:-translate-y-2"
+  >
+    <img
+      src="/public/img/auction_3.jpg"
+      alt=""
+      class="w-full h-auto rounded-2xl"
+    />
+    <p
+      class="mt-8 text-white text-xl relative w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500"
+    >
+      Design illusions
+    </p>
+    <div class="flex items-center gap-2.5 mt-6">
+      <p class="text-gray-500 opacity-80">Owned By</p>
+      <p
+        class="text-white text-l relative w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500 cursor-pointer"
+      >
+        John Deo
+      </p>
+    </div>
+    <div class="flex justify-between mt-7">
+      <p class="text-l font-bold text-white">2.7 ETH</p>
+      <p class="text-l font-bold text-white">1 of 1</p>
+    </div>
+    <button
+      class="mt-7 w-45 items-center rounded-3xl border-2 border-[rgb(255,255,255)] p-2.5 text-center font-bold transition duration-450 ease-in-out hover:border-none hover:bg-gradient-to-r hover:from-[rgb(70,38,215)] hover:to-[rgb(84,11,153)]"
+    >
+      <i class="fa-light fa-bag-shopping"></i> Place a Bid
+    </button>
+  </div>
+
+  <!-- Card 3 -->
+  <div
+    class="text-white p-4 shadow-[0_-20px_30px_rgba(0,0,0,0.5)] rounded-xl w-full bg-[rgb(22,21,26)] transition-transform duration-500 hover:-translate-y-2"
+  >
+    <img
+      src="/public/img/auction_4.jpg"
+      alt=""
+      class="w-full h-auto rounded-2xl"
+    />
+    <p
+      class="mt-8 text-white text-xl relative w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500"
+    >
+      Design illusions
+    </p>
+    <div class="flex items-center gap-2.5 mt-6">
+      <p class="text-gray-500 opacity-80">Owned By</p>
+      <p
+        class="text-white text-l relative w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500 cursor-pointer"
+      >
+        Ahram
+      </p>
+    </div>
+    <div class="flex justify-between mt-7">
+      <p class="text-l font-bold text-white">2.7 ETH</p>
+      <p class="text-l font-bold text-white">1 of 1</p>
+    </div>
+    <button
+      class="mt-7 w-45 items-center rounded-3xl border-2 border-[rgb(255,255,255)] p-2.5 text-center font-bold transition duration-450 ease-in-out hover:border-none hover:bg-gradient-to-r hover:from-[rgb(70,38,215)] hover:to-[rgb(84,11,153)]"
+    >
+      <i class="fa-light fa-bag-shopping"></i> Place a Bid
+    </button>
+  </div>
+
+  <!-- Card 4 -->
+  <div
+    class="text-white p-4 shadow-[0_-20px_30px_rgba(0,0,0,0.5)] rounded-xl w-full bg-[rgb(22,21,26)] transition-transform duration-500 hover:-translate-y-2"
+  >
+    <img
+      src="/public/img/auction_3.jpg"
+      alt=""
+      class="w-full h-auto rounded-2xl"
+    />
+    <p
+      class="mt-8 text-white text-xl relative w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500"
+    >
+      Design illusions
+    </p>
+    <div class="flex items-center gap-2.5 mt-6">
+      <p class="text-gray-500 opacity-80">Owned By</p>
+      <p
+        class="text-white text-l relative w-fit hover:bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold hover:text-transparent transition ease-in-out duration-500 cursor-pointer"
+      >
+        Ahram
+      </p>
+    </div>
+    <div class="flex justify-between mt-7">
+      <p class="text-l font-bold text-white">2.7 ETH</p>
+      <p class="text-l font-bold text-white">1 of 1</p>
+    </div>
+    <button
+      class="mt-7 w-45 items-center rounded-3xl border-2 border-[rgb(255,255,255)] p-2.5 text-center font-bold transition duration-450 ease-in-out hover:border-none hover:bg-gradient-to-r hover:from-[rgb(70,38,215)] hover:to-[rgb(84,11,153)]"
+    >
+      <i class="fa-light fa-bag-shopping"></i> Place a Bid
+    </button>
+  </div>
+</div>
+
+
+
+
+
 
     <!----------------------------------->
 
-    <div class="live-Auction bg-black min-h-fit flex w-fit mt-10 ml-50">
+    <div class="live-Auction bg-black min-h-fit flex w-fit mt-10 ml-10 xl:ml-40">
       <div class="w-fit">
         <p
           class="text-1xl relative w-fit bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold text-transparent after:absolute after:top-1/2 after:left-[calc(100%+8px)] after:h-[3px] after:w-[45px] after:rounded-3xl after:bg-gradient-to-r after:from-[rgb(70,38,215)] after:to-[rgb(84,11,153)] after:content-[''] hover:from-[rgb(84,11,153)] hover:to-[rgb(70,38,215)] mt-5"
@@ -761,8 +1255,10 @@
         </h3>
       </div>
     </div>
-    <div class="flex justify-center mt-11 mb-28">
-      <div class="grid lg:grid-cols-2 xl:grid-cols-4 gap-3 w-[100%]  xl:max-w-[75%] mt-2">
+    <div class="flex justify-center mt-11 mb-28 ml-10 xl:ml-0">
+      <div
+        class="grid lg:grid-cols-2 xl:grid-cols-4 gap-3 w-[100%] xl:max-w-[75%] mt-2"
+      >
         <div class="flex flex-col gap-6">
           <p
             class="relative w-fit bg-gradient-to-r from-[rgb(84,11,153)] to-[rgb(70,38,215)] bg-clip-text font-semibold text-transparent"
@@ -814,7 +1310,7 @@
           <h3 class="text-2xl font-bold text-white mt-2.5">
             List them for sale
           </h3>
-          <p class="text-gray-400 ">
+          <p class="text-gray-400">
             Choose between auctions, fixed-price listings, and declining-price
             listings. You choose how you want to sell your NFTs!
           </p>
